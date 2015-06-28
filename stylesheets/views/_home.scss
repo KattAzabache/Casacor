@@ -125,6 +125,7 @@ section.participante {
     cursor: pointer;
     overflow: hidden;
     border: 3px solid #fff;
+    top: 50px;
     img{
       width: 100%;
     }
@@ -181,3 +182,27 @@ section.participante {
     transform: rotate(0);
     top: 0;
 }
+section.row.noticias {
+  padding: 5%;
+  text-align: center;
+  img{
+    display: block;
+    margin: 0 auto;
+  }
+  div#slider{
+    border: 1px solid rgb(223, 223, 223);
+    padding: 5%;
+    top: 50px;
+    position: relative;
+      img{
+       width: 100%;
+      }
+  }
+}
+.noticias div#slider2{
+    border: 1px solid rgb(223, 223, 223);
+    padding: 5%;
+      img{
+       width: 100%;
+      }
+  }

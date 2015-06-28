@@ -36,3 +36,18 @@ $(document).ready(function() {
         }
     });
 });
+ // slider
+ $(function(){
+    $('#slider div:gt(0)').hide();
+    setInterval(function(){
+      $('#slider div:first-child').fadeOut(0) //Tiempo en desaparecer la imagen saliente
+         .next('div').fadeIn(1000) //Tiempo en aparecer la imagen entrante
+         .end().appendTo('#slider');}, 3000); //Tiempo de permanencia de cada imagen
+});
+  $(function(){
+    $('#slider2 div:gt(0)').hide();
+    setInterval(function(){
+      $('#slider2 div:first-child').fadeOut(0)
+         .next('div').fadeIn(1000)
+         .end().appendTo('#slider2');}, 6000);
+});
